@@ -19,6 +19,7 @@
 		6D61780724790BD9005A4623 /* RingkasanBelanja.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780524790BD9005A4623 /* RingkasanBelanja.storyboard */; };
 		6D61780A24790C07005A4623 /* LokasiAnda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780824790C07005A4623 /* LokasiAnda.storyboard */; };
 		6D61780D24790C31005A4623 /* Masuk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780B24790C31005A4623 /* Masuk.storyboard */; };
+		BF9DD91B24791ACE00AB0EDC /* Multiple Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9DD91A24791ACE00AB0EDC /* Multiple Pages.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		6D61780624790BD9005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/RingkasanBelanja.storyboard"; sourceTree = "<group>"; };
 		6D61780924790C07005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/MC2-Elder/Base.lproj/LokasiAnda.storyboard"; sourceTree = "<group>"; };
 		6D61780C24790C31005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/Masuk.storyboard"; sourceTree = "<group>"; };
+		BF9DD91A24791ACE00AB0EDC /* Multiple Pages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Multiple Pages.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				6D61780524790BD9005A4623 /* RingkasanBelanja.storyboard */,
 				6D61780824790C07005A4623 /* LokasiAnda.storyboard */,
 				6D61780B24790C31005A4623 /* Masuk.storyboard */,
+				BF9DD91A24791ACE00AB0EDC /* Multiple Pages.storyboard */,
 				6D170644247855FC00F144BF /* Assets.xcassets */,
 				6D170646247855FC00F144BF /* LaunchScreen.storyboard */,
 				6D170649247855FC00F144BF /* Info.plist */,
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9DD91B24791ACE00AB0EDC /* Multiple Pages.storyboard in Resources */,
 				6D61780424790BA2005A4623 /* DaftarBelanja.storyboard in Resources */,
 				6D170648247855FC00F144BF /* LaunchScreen.storyboard in Resources */,
 				6D61780724790BD9005A4623 /* RingkasanBelanja.storyboard in Resources */,
