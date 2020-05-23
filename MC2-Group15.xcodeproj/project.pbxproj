@@ -20,9 +20,9 @@
 		6D61780A24790C07005A4623 /* LokasiAnda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780824790C07005A4623 /* LokasiAnda.storyboard */; };
 		6D61780D24790C31005A4623 /* Masuk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780B24790C31005A4623 /* Masuk.storyboard */; };
 		C864EEB3247921C300854CEC /* Pesanan Sebelumnya.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EEB2247921C300854CEC /* Pesanan Sebelumnya.storyboard */; };
-		C864EEB9247927E300854CEC /* Status Posisi Helper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EEB8247927E300854CEC /* Status Posisi Helper.storyboard */; };
-		C864EEBB24792B1C00854CEC /* Pesanan Telah Sampai.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EEBA24792B1C00854CEC /* Pesanan Telah Sampai.storyboard */; };
-		C864EEBD24792B7E00854CEC /* Pesanan Sebelumnya.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EEBC24792B7E00854CEC /* Pesanan Sebelumnya.storyboard */; };
+		C89C89AE24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C89AD24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard */; };
+		C89C89B024796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C89AF24796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard */; };
+		C89C89B424796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C89B324796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +41,9 @@
 		6D61780924790C07005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/MC2-Elder/Base.lproj/LokasiAnda.storyboard"; sourceTree = "<group>"; };
 		6D61780C24790C31005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/Masuk.storyboard"; sourceTree = "<group>"; };
 		C864EEB2247921C300854CEC /* Pesanan Sebelumnya.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Sebelumnya.storyboard"; sourceTree = "<group>"; };
-		C864EEB8247927E300854CEC /* Status Posisi Helper.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Status Posisi Helper.storyboard"; path = "../../page7-12/page7-12/Storyboards/Status Posisi Helper.storyboard"; sourceTree = "<group>"; };
-		C864EEBA24792B1C00854CEC /* Pesanan Telah Sampai.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Telah Sampai.storyboard"; sourceTree = "<group>"; };
-		C864EEBC24792B7E00854CEC /* Pesanan Sebelumnya.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Pesanan Sebelumnya.storyboard"; path = "../../page7-12/page7-12/Storyboards/Pesanan Sebelumnya.storyboard"; sourceTree = "<group>"; };
+		C89C89AD24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Status Posisi Helper Rev.storyboard"; sourceTree = "<group>"; };
+		C89C89AF24796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Pesanan Sebelumnya Rev.storyboard"; path = "../../page7-12/page7-12/Storyboards/Pesanan Sebelumnya Rev.storyboard"; sourceTree = "<group>"; };
+		C89C89B324796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Telah Sampai Rev.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 				6D61780224790BA2005A4623 /* DaftarBelanja.storyboard */,
 				6D61780524790BD9005A4623 /* RingkasanBelanja.storyboard */,
 				6D61780824790C07005A4623 /* LokasiAnda.storyboard */,
-				C864EEBC24792B7E00854CEC /* Pesanan Sebelumnya.storyboard */,
-				C864EEBA24792B1C00854CEC /* Pesanan Telah Sampai.storyboard */,
-				C864EEB8247927E300854CEC /* Status Posisi Helper.storyboard */,
+				C89C89B324796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard */,
+				C89C89AF24796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard */,
+				C89C89AD24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard */,
 				6D61780B24790C31005A4623 /* Masuk.storyboard */,
 				C864EEB2247921C300854CEC /* Pesanan Sebelumnya.storyboard */,
 				6D170644247855FC00F144BF /* Assets.xcassets */,
@@ -156,18 +156,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D61780424790BA2005A4623 /* DaftarBelanja.storyboard in Resources */,
-				C864EEB9247927E300854CEC /* Status Posisi Helper.storyboard in Resources */,
-				C864EEBD24792B7E00854CEC /* Pesanan Sebelumnya.storyboard in Resources */,
 				6D170648247855FC00F144BF /* LaunchScreen.storyboard in Resources */,
 				6D61780724790BD9005A4623 /* RingkasanBelanja.storyboard in Resources */,
 				6D61780A24790C07005A4623 /* LokasiAnda.storyboard in Resources */,
 				6D61780D24790C31005A4623 /* Masuk.storyboard in Resources */,
+				C89C89B024796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard in Resources */,
 				C864EEB3247921C300854CEC /* Pesanan Sebelumnya.storyboard in Resources */,
+				C89C89AE24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard in Resources */,
 				6D61780124790B3B005A4623 /* Onboarding.storyboard in Resources */,
 				6D6177FE24790AC3005A4623 /* Home.storyboard in Resources */,
 				6D170645247855FC00F144BF /* Assets.xcassets in Resources */,
-				C864EEBB24792B1C00854CEC /* Pesanan Telah Sampai.storyboard in Resources */,
 				6D170643247855FB00F144BF /* Main.storyboard in Resources */,
+				C89C89B424796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
