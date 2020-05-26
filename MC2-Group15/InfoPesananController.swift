@@ -22,9 +22,9 @@ class InfoPesananController: UIViewController, CLLocationManagerDelegate, MKMapV
     
     // setting all view in info pesanan
     func setupView(){
-        imageView.layer.cornerRadius = 5.0
-        contactView.layer.cornerRadius = 5.0
-        blueButton.layer.cornerRadius = 5.0
+        imageView.layer.cornerRadius = 8.0
+        contactView.layer.cornerRadius = 8.0
+        blueButton.layer.cornerRadius = 8.0
     }
     
     //manage user's location
