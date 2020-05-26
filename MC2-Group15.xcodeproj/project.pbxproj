@@ -9,45 +9,43 @@
 /* Begin PBXBuildFile section */
 		6D17063C247855FB00F144BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17063B247855FB00F144BF /* AppDelegate.swift */; };
 		6D17063E247855FB00F144BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17063D247855FB00F144BF /* SceneDelegate.swift */; };
-		6D170640247855FB00F144BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17063F247855FB00F144BF /* ViewController.swift */; };
-		6D170643247855FB00F144BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D170641247855FB00F144BF /* Main.storyboard */; };
 		6D170645247855FC00F144BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D170644247855FC00F144BF /* Assets.xcassets */; };
-		6D170648247855FC00F144BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D170646247855FC00F144BF /* LaunchScreen.storyboard */; };
-		6D6177FE24790AC3005A4623 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6177FC24790AC3005A4623 /* Home.storyboard */; };
-		6D61780124790B3B005A4623 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6177FF24790B3B005A4623 /* Onboarding.storyboard */; };
-		6D61780424790BA2005A4623 /* DaftarBelanja.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780224790BA2005A4623 /* DaftarBelanja.storyboard */; };
-		6D61780724790BD9005A4623 /* RingkasanBelanja.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780524790BD9005A4623 /* RingkasanBelanja.storyboard */; };
-		6D61780A24790C07005A4623 /* LokasiAnda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780824790C07005A4623 /* LokasiAnda.storyboard */; };
-		6D61780D24790C31005A4623 /* Masuk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D61780B24790C31005A4623 /* Masuk.storyboard */; };
-		AE7836AC247CAE7D009D0FCB /* InfoPesanan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7836AB247CAE7D009D0FCB /* InfoPesanan.storyboard */; };
-		AE7836AE247CB222009D0FCB /* InfoPesananController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7836AD247CB222009D0FCB /* InfoPesananController.swift */; };
-		C864EEB3247921C300854CEC /* Pesanan Sebelumnya.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EEB2247921C300854CEC /* Pesanan Sebelumnya.storyboard */; };
-		C89C89AE24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C89AD24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard */; };
-		C89C89B024796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C89AF24796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard */; };
-		C89C89B424796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C89B324796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard */; };
+		C8AAAF48247D21C1003AB2EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAAF37247D21C1003AB2EF /* ViewController.swift */; };
+		C8AAAF49247D21C1003AB2EF /* InfoPesananController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAAF38247D21C1003AB2EF /* InfoPesananController.swift */; };
+		C8AAAF4A247D21C1003AB2EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF3B247D21C1003AB2EF /* LaunchScreen.storyboard */; };
+		C8AAAF4C247D21C1003AB2EF /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF3D247D21C1003AB2EF /* Onboarding.storyboard */; };
+		C8AAAF4F247D21C1003AB2EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF40247D21C1003AB2EF /* Main.storyboard */; };
+		C8AAAF5D247D2440003AB2EF /* Status Posisi Helper Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF56247D243F003AB2EF /* Status Posisi Helper Rev.storyboard */; };
+		C8AAAF5E247D2440003AB2EF /* Pesanan Telah Sampai Rev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF57247D243F003AB2EF /* Pesanan Telah Sampai Rev.storyboard */; };
+		C8AAAF5F247D2440003AB2EF /* DaftarBelanja.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF58247D243F003AB2EF /* DaftarBelanja.storyboard */; };
+		C8AAAF60247D2440003AB2EF /* Pesanan Sebelumnya.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF59247D243F003AB2EF /* Pesanan Sebelumnya.storyboard */; };
+		C8AAAF61247D2440003AB2EF /* LokasiAnda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF5A247D243F003AB2EF /* LokasiAnda.storyboard */; };
+		C8AAAF62247D2440003AB2EF /* RingkasanBelanja.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF5B247D2440003AB2EF /* RingkasanBelanja.storyboard */; };
+		C8AAAF63247D2440003AB2EF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF5C247D2440003AB2EF /* Home.storyboard */; };
+		C8AAAF66247D2450003AB2EF /* Masuk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF64247D2450003AB2EF /* Masuk.storyboard */; };
+		C8AAAF67247D2450003AB2EF /* InfoPesanan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF65247D2450003AB2EF /* InfoPesanan.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D170638247855FB00F144BF /* MC2-Group15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC2-Group15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D17063B247855FB00F144BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D17063D247855FB00F144BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D17063F247855FB00F144BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6D170642247855FB00F144BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D170644247855FC00F144BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D170647247855FC00F144BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D170649247855FC00F144BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D6177FD24790AC3005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/Home.storyboard"; sourceTree = "<group>"; };
-		6D61780024790B3B005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/Onboarding.storyboard"; sourceTree = "<group>"; };
-		6D61780324790BA2005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/DaftarBelanja.storyboard"; sourceTree = "<group>"; };
-		6D61780624790BD9005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/RingkasanBelanja.storyboard"; sourceTree = "<group>"; };
-		6D61780924790C07005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/MC2-Elder/Base.lproj/LokasiAnda.storyboard"; sourceTree = "<group>"; };
-		6D61780C24790C31005A4623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "MC2-Elder/Base.lproj/Masuk.storyboard"; sourceTree = "<group>"; };
-		AE7836AB247CAE7D009D0FCB /* InfoPesanan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoPesanan.storyboard; sourceTree = "<group>"; };
-		AE7836AD247CB222009D0FCB /* InfoPesananController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPesananController.swift; sourceTree = "<group>"; };
-		C864EEB2247921C300854CEC /* Pesanan Sebelumnya.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Sebelumnya.storyboard"; sourceTree = "<group>"; };
-		C89C89AD24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Status Posisi Helper Rev.storyboard"; sourceTree = "<group>"; };
-		C89C89AF24796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Pesanan Sebelumnya Rev.storyboard"; path = "../../page7-12/page7-12/Storyboards/Pesanan Sebelumnya Rev.storyboard"; sourceTree = "<group>"; };
-		C89C89B324796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Telah Sampai Rev.storyboard"; sourceTree = "<group>"; };
+		C8AAAF37247D21C1003AB2EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8AAAF38247D21C1003AB2EF /* InfoPesananController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPesananController.swift; sourceTree = "<group>"; };
+		C8AAAF3B247D21C1003AB2EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8AAAF3D247D21C1003AB2EF /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		C8AAAF40247D21C1003AB2EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C8AAAF56247D243F003AB2EF /* Status Posisi Helper Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Status Posisi Helper Rev.storyboard"; sourceTree = "<group>"; };
+		C8AAAF57247D243F003AB2EF /* Pesanan Telah Sampai Rev.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Telah Sampai Rev.storyboard"; sourceTree = "<group>"; };
+		C8AAAF58247D243F003AB2EF /* DaftarBelanja.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DaftarBelanja.storyboard; sourceTree = "<group>"; };
+		C8AAAF59247D243F003AB2EF /* Pesanan Sebelumnya.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Pesanan Sebelumnya.storyboard"; sourceTree = "<group>"; };
+		C8AAAF5A247D243F003AB2EF /* LokasiAnda.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LokasiAnda.storyboard; sourceTree = "<group>"; };
+		C8AAAF5B247D2440003AB2EF /* RingkasanBelanja.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RingkasanBelanja.storyboard; sourceTree = "<group>"; };
+		C8AAAF5C247D2440003AB2EF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C8AAAF64247D2450003AB2EF /* Masuk.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Masuk.storyboard; sourceTree = "<group>"; };
+		C8AAAF65247D2450003AB2EF /* InfoPesanan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InfoPesanan.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,27 +78,58 @@
 		6D17063A247855FB00F144BF /* MC2-Group15 */ = {
 			isa = PBXGroup;
 			children = (
+				C8AAAF36247D21C1003AB2EF /* Controllers */,
+				C8AAAF39247D21C1003AB2EF /* Views */,
 				6D17063B247855FB00F144BF /* AppDelegate.swift */,
 				6D17063D247855FB00F144BF /* SceneDelegate.swift */,
-				6D17063F247855FB00F144BF /* ViewController.swift */,
-				6D170641247855FB00F144BF /* Main.storyboard */,
-				6D6177FF24790B3B005A4623 /* Onboarding.storyboard */,
-				6D6177FC24790AC3005A4623 /* Home.storyboard */,
-				AE7836AB247CAE7D009D0FCB /* InfoPesanan.storyboard */,
-				AE7836AD247CB222009D0FCB /* InfoPesananController.swift */,
-				6D61780224790BA2005A4623 /* DaftarBelanja.storyboard */,
-				6D61780524790BD9005A4623 /* RingkasanBelanja.storyboard */,
-				6D61780824790C07005A4623 /* LokasiAnda.storyboard */,
-				C89C89B324796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard */,
-				C89C89AF24796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard */,
-				C89C89AD24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard */,
-				6D61780B24790C31005A4623 /* Masuk.storyboard */,
-				C864EEB2247921C300854CEC /* Pesanan Sebelumnya.storyboard */,
 				6D170644247855FC00F144BF /* Assets.xcassets */,
-				6D170646247855FC00F144BF /* LaunchScreen.storyboard */,
 				6D170649247855FC00F144BF /* Info.plist */,
 			);
 			path = "MC2-Group15";
+			sourceTree = "<group>";
+		};
+		C8AAAF36247D21C1003AB2EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAAF37247D21C1003AB2EF /* ViewController.swift */,
+				C8AAAF38247D21C1003AB2EF /* InfoPesananController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C8AAAF39247D21C1003AB2EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAAF3A247D21C1003AB2EF /* Elder */,
+				C8AAAF3B247D21C1003AB2EF /* LaunchScreen.storyboard */,
+				C8AAAF3D247D21C1003AB2EF /* Onboarding.storyboard */,
+				C8AAAF40247D21C1003AB2EF /* Main.storyboard */,
+				C8AAAF46247D21C1003AB2EF /* Helper */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8AAAF3A247D21C1003AB2EF /* Elder */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAAF58247D243F003AB2EF /* DaftarBelanja.storyboard */,
+				C8AAAF5C247D2440003AB2EF /* Home.storyboard */,
+				C8AAAF5A247D243F003AB2EF /* LokasiAnda.storyboard */,
+				C8AAAF59247D243F003AB2EF /* Pesanan Sebelumnya.storyboard */,
+				C8AAAF57247D243F003AB2EF /* Pesanan Telah Sampai Rev.storyboard */,
+				C8AAAF5B247D2440003AB2EF /* RingkasanBelanja.storyboard */,
+				C8AAAF56247D243F003AB2EF /* Status Posisi Helper Rev.storyboard */,
+			);
+			path = Elder;
+			sourceTree = "<group>";
+		};
+		C8AAAF46247D21C1003AB2EF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAAF65247D2450003AB2EF /* InfoPesanan.storyboard */,
+				C8AAAF64247D2450003AB2EF /* Masuk.storyboard */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,20 +190,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D61780424790BA2005A4623 /* DaftarBelanja.storyboard in Resources */,
-				6D170648247855FC00F144BF /* LaunchScreen.storyboard in Resources */,
-				6D61780724790BD9005A4623 /* RingkasanBelanja.storyboard in Resources */,
-				6D61780A24790C07005A4623 /* LokasiAnda.storyboard in Resources */,
-				6D61780D24790C31005A4623 /* Masuk.storyboard in Resources */,
-				C89C89B024796D78004BDD48 /* Pesanan Sebelumnya Rev.storyboard in Resources */,
-				C864EEB3247921C300854CEC /* Pesanan Sebelumnya.storyboard in Resources */,
-				AE7836AC247CAE7D009D0FCB /* InfoPesanan.storyboard in Resources */,
-				C89C89AE24796CCF004BDD48 /* Status Posisi Helper Rev.storyboard in Resources */,
-				6D61780124790B3B005A4623 /* Onboarding.storyboard in Resources */,
-				6D6177FE24790AC3005A4623 /* Home.storyboard in Resources */,
+				C8AAAF5D247D2440003AB2EF /* Status Posisi Helper Rev.storyboard in Resources */,
+				C8AAAF5E247D2440003AB2EF /* Pesanan Telah Sampai Rev.storyboard in Resources */,
+				C8AAAF4A247D21C1003AB2EF /* LaunchScreen.storyboard in Resources */,
+				C8AAAF63247D2440003AB2EF /* Home.storyboard in Resources */,
+				C8AAAF62247D2440003AB2EF /* RingkasanBelanja.storyboard in Resources */,
+				C8AAAF66247D2450003AB2EF /* Masuk.storyboard in Resources */,
+				C8AAAF4C247D21C1003AB2EF /* Onboarding.storyboard in Resources */,
+				C8AAAF67247D2450003AB2EF /* InfoPesanan.storyboard in Resources */,
+				C8AAAF4F247D21C1003AB2EF /* Main.storyboard in Resources */,
+				C8AAAF5F247D2440003AB2EF /* DaftarBelanja.storyboard in Resources */,
+				C8AAAF61247D2440003AB2EF /* LokasiAnda.storyboard in Resources */,
+				C8AAAF60247D2440003AB2EF /* Pesanan Sebelumnya.storyboard in Resources */,
 				6D170645247855FC00F144BF /* Assets.xcassets in Resources */,
-				6D170643247855FB00F144BF /* Main.storyboard in Resources */,
-				C89C89B424796E5D004BDD48 /* Pesanan Telah Sampai Rev.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,81 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7836AE247CB222009D0FCB /* InfoPesananController.swift in Sources */,
-				6D170640247855FB00F144BF /* ViewController.swift in Sources */,
+				C8AAAF49247D21C1003AB2EF /* InfoPesananController.swift in Sources */,
+				C8AAAF48247D21C1003AB2EF /* ViewController.swift in Sources */,
 				6D17063C247855FB00F144BF /* AppDelegate.swift in Sources */,
 				6D17063E247855FB00F144BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6D170641247855FB00F144BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D170642247855FB00F144BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6D170646247855FC00F144BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D170647247855FC00F144BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6D6177FC24790AC3005A4623 /* Home.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D6177FD24790AC3005A4623 /* Base */,
-			);
-			name = Home.storyboard;
-			sourceTree = "<group>";
-		};
-		6D6177FF24790B3B005A4623 /* Onboarding.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D61780024790B3B005A4623 /* Base */,
-			);
-			name = Onboarding.storyboard;
-			sourceTree = "<group>";
-		};
-		6D61780224790BA2005A4623 /* DaftarBelanja.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D61780324790BA2005A4623 /* Base */,
-			);
-			name = DaftarBelanja.storyboard;
-			sourceTree = "<group>";
-		};
-		6D61780524790BD9005A4623 /* RingkasanBelanja.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D61780624790BD9005A4623 /* Base */,
-			);
-			name = RingkasanBelanja.storyboard;
-			sourceTree = "<group>";
-		};
-		6D61780824790C07005A4623 /* LokasiAnda.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D61780924790C07005A4623 /* Base */,
-			);
-			name = LokasiAnda.storyboard;
-			sourceTree = "<group>";
-		};
-		6D61780B24790C31005A4623 /* Masuk.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D61780C24790C31005A4623 /* Base */,
-			);
-			name = Masuk.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D17064A247855FC00F144BF /* Debug */ = {
