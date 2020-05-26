@@ -108,6 +108,7 @@
                         <outlet property="addressLabel" destination="grs-wB-HCy" id="k9a-VF-Hwa"/>
                         <outlet property="blueButton" destination="UXB-8R-4zg" id="T6g-0d-ag3"/>
                         <outlet property="contactButton" destination="F7W-YH-Gvh" id="huo-mA-40d"/>
+                        <outlet property="contactView" destination="Idi-cm-iNc" id="2U7-39-Aat"/>
                         <outlet property="imageView" destination="69l-hz-JvI" id="dpI-cy-b9n"/>
                         <outlet property="mapView" destination="laE-3L-Chi" id="fls-ki-xI6"/>
                         <outlet property="nameLabel" destination="g76-lU-RcR" id="P9z-Tb-9fa"/>

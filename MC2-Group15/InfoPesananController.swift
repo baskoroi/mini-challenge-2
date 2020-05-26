@@ -12,6 +12,7 @@ import MapKit
 
 class InfoPesananController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
+    @IBOutlet weak var contactView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var contactButton: UIButton!
@@ -19,13 +20,19 @@ class InfoPesananController: UIViewController, CLLocationManagerDelegate, MKMapV
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var blueButton: UIButton!
     
-    
+    // setting all view in info pesanan
+    func setupView(){
+        imageView.layer.cornerRadius = 5.0
+        contactView.layer.cornerRadius = 5.0
+        blueButton.layer.cornerRadius = 5.0
+    }
     
     //manage user's location
     var locManager = CLLocationManager()
         
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
         // Do any additional setup after loading the view.
         locManager.desiredAccuracy = kCLLocationAccuracyBest // High Battery Usage
         locManager.delegate = self
@@ -41,6 +48,7 @@ class InfoPesananController: UIViewController, CLLocationManagerDelegate, MKMapV
     // get address from textfield
     func getAddress(){
         let geoCoder = CLGeocoder()
+        // get destination place from here
         geoCoder.geocodeAddressString(addressLabel.text!) { (placemarks, error) in
             guard let placemarks = placemarks, let target = placemarks.first?.location
                 else{
