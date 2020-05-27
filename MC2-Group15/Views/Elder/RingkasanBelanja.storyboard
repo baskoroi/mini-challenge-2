@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sh9-5E-ZTe">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ringkasan Belanja-->
+        <scene sceneID="796-26-oKw">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Sh9-5E-ZTe" customClass="SummaryViewController" customModule="MC2_Group15" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VgZ-r0-Td5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silakan cek kembali alamat dan pesanan Anda sebelum melanjutkan." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1a-Av-Wh2" userLabel="Instruksi">
+                                <rect key="frame" x="20" y="44" width="374" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMX-Yc-s0t">
+                                <rect key="frame" x="20" y="770" width="366" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.15686274510000001" green="0.66274509800000003" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Lanjutkan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="klc-50-hzO">
+                                <rect key="frame" x="24" y="413" width="366" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1x Ayam Kampung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qe-7N-8uY">
+                                        <rect key="frame" x="16" y="16" width="166" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Minta dipotong jadi 8 bagian" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="Q5X-gg-Dfs">
+                                        <rect key="frame" x="16" y="48" width="249" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jah-mf-f3V">
+                                        <rect key="frame" x="328" y="31" width="22" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.78823529410000004" green="0.18823529410000001" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="trash" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" weight="regular"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-fl-ltF">
+                                <rect key="frame" x="20" y="517" width="366" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5x Indomie Goreng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ukc-ep-Yqk">
+                                        <rect key="frame" x="16" y="16" width="170" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Tuliskan catatan Anda di sini" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="Jb7-Mf-kks">
+                                        <rect key="frame" x="16" y="48" width="268" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFW-P1-QSP">
+                                        <rect key="frame" x="328" y="31" width="22" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.78823529410000004" green="0.18823529410000001" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="trash" catalog="system">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="20" weight="regular"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ql2-uT-h78">
+                                <rect key="frame" x="20" y="625" width="366" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estimasi Total Belanja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYO-ZG-nBd">
+                                        <rect key="frame" x="16" y="16" width="198" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text=" Rp 75.000" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="cyb-UX-5G5">
+                                        <rect key="frame" x="16" y="48" width="99" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" textContentType="location"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdG-f6-s2H" userLabel="Location View">
+                                <rect key="frame" x="24" y="113" width="366" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lokasi Anda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaG-fh-5xW">
+                                        <rect key="frame" x="12" y="8" width="107" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="hwR-vz-NTF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydq-Be-Mrr">
+                                        <rect key="frame" x="278" y="8" width="80" height="84"/>
+                                        <color key="backgroundColor" red="0.15686274510000001" green="0.66274509800000003" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="qLh-Lm-bsE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Ubah">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Jl. Mawar Melati Permai III Blok BC No. 10" translatesAutoresizingMaskIntoConstraints="NO" id="xN7-oX-dOT">
+                                        <rect key="frame" x="8" y="28" width="262" height="64"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="FaG-fh-5xW" firstAttribute="leading" secondItem="YdG-f6-s2H" secondAttribute="leading" constant="12" id="25t-uH-o1Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="ydq-Be-Mrr" secondAttribute="bottom" constant="8" id="2VB-Oh-PDz"/>
+                                    <constraint firstItem="ydq-Be-Mrr" firstAttribute="leading" secondItem="xN7-oX-dOT" secondAttribute="trailing" constant="8" id="3oS-if-jnv"/>
+                                    <constraint firstItem="FaG-fh-5xW" firstAttribute="top" secondItem="YdG-f6-s2H" secondAttribute="top" constant="8" id="A5d-94-g8R"/>
+                                    <constraint firstAttribute="trailing" secondItem="ydq-Be-Mrr" secondAttribute="trailing" constant="8" id="GTw-dQ-FYc"/>
+                                    <constraint firstItem="xN7-oX-dOT" firstAttribute="top" secondItem="FaG-fh-5xW" secondAttribute="bottom" constant="-4" id="MeU-J4-Enr"/>
+                                    <constraint firstAttribute="height" constant="100" id="RAw-8o-lWB"/>
+                                    <constraint firstItem="xN7-oX-dOT" firstAttribute="leading" secondItem="YdG-f6-s2H" secondAttribute="leading" constant="8" id="Ti2-0M-4BA"/>
+                                    <constraint firstItem="ydq-Be-Mrr" firstAttribute="leading" secondItem="xN7-oX-dOT" secondAttribute="trailing" constant="8" id="Xjh-8F-L1k"/>
+                                    <constraint firstItem="ydq-Be-Mrr" firstAttribute="top" secondItem="YdG-f6-s2H" secondAttribute="top" constant="8" id="mFa-xi-5Hq"/>
+                                    <constraint firstAttribute="bottom" secondItem="xN7-oX-dOT" secondAttribute="bottom" constant="8" id="zXf-l7-Nph"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="w1a-Av-Wh2" firstAttribute="top" secondItem="Uev-hW-0ie" secondAttribute="top" id="5Ub-Te-OOp"/>
+                            <constraint firstItem="YdG-f6-s2H" firstAttribute="top" secondItem="w1a-Av-Wh2" secondAttribute="bottom" constant="16" id="8QZ-AO-A1C"/>
+                            <constraint firstItem="YdG-f6-s2H" firstAttribute="leading" secondItem="Uev-hW-0ie" secondAttribute="leading" constant="24" id="ArV-4I-edh"/>
+                            <constraint firstItem="Uev-hW-0ie" firstAttribute="trailing" secondItem="YdG-f6-s2H" secondAttribute="trailing" constant="24" id="KYq-rP-067"/>
+                            <constraint firstItem="w1a-Av-Wh2" firstAttribute="leading" secondItem="Uev-hW-0ie" secondAttribute="leading" constant="20" id="UXn-eT-jQM"/>
+                            <constraint firstAttribute="trailing" secondItem="w1a-Av-Wh2" secondAttribute="trailing" constant="20" id="yEE-l9-c6d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Uev-hW-0ie"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ringkasan Belanja" id="b1T-Bb-Ekz">
+                        <barButtonItem key="backBarButtonItem" title="Kembali" id="umG-Z0-faa"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lp-d6-Afd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4679.7101449275369" y="105.80357142857143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
+</document>

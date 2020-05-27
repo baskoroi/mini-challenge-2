@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct ShoppingList {
+struct CuratedShoppingList {
     let id: UUID
     let name: String
     let image: UIImage?
@@ -21,7 +21,7 @@ struct ShoppingList {
         self.shoppingItems = shoppingItems
     }
     
-    init(from list: ShoppingList) {
+    init(from list: CuratedShoppingList) {
         self.id            = list.id
         self.name          = list.name
         self.image         = list.image

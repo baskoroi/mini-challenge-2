@@ -1,5 +1,5 @@
 //
-//  SummaryViewController.swift
+//  HistoryViewController.swift
 //  MC2Prototype-ShoppingList
 //
 //  Created by Baskoro Indrayana on 05/27/20.
@@ -8,9 +8,7 @@
 
 import UIKit
 
-class SummaryViewController: UIViewController {
-
-    var shoppingList: ShoppingList?
+class HistoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,12 +16,12 @@ class SummaryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        if let list = shoppingList {
-            print(list)
-        }
-    }
 
+    @IBAction func reorderPerHistory(_ sender: UIButton) {
+        
+//        self.performSegue(withIdentifier: "showReorderSummary", sender: self)
+//        
+    }
     /*
     // MARK: - Navigation
 

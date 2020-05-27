@@ -46,6 +46,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="48" weight="semibold"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9HG-bn-D4h" kind="show" id="Nsl-me-CWs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -65,6 +68,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjn-MK-bb9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1015" y="2"/>
+        </scene>
+        <!--PesanLagi-->
+        <scene sceneID="2Ys-PL-Tlf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PesanLagi" id="9HG-bn-D4h" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zJE-ho-oN5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0aZ-w5-SGZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="184"/>
         </scene>
     </scenes>
     <resources>
