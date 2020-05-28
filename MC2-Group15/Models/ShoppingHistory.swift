@@ -14,11 +14,11 @@ struct ShoppingHistory {
     let helper: User?
     let elder: User?
     let address: String
-    let arrivalDate: Date
+    let arrivalDate: Date?
     let shoppingItems: [ShoppingItem]
     
     init(address: String,
-         arrivalDate: Date,
+         arrivalDate: Date?,
          shoppingItems: [ShoppingItem] = []) {
         
         self.id            = UUID()
@@ -32,7 +32,7 @@ struct ShoppingHistory {
     init(helper: User,
          elder: User,
          address: String,
-         arrivalDate: Date,
+         arrivalDate: Date?,
          shoppingItems: [ShoppingItem]) {
         
         self.id            = UUID()

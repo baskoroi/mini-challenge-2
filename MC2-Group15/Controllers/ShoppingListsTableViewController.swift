@@ -58,9 +58,14 @@ class ShoppingListsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        self.performSegue(withIdentifier: openSummarySegueID, sender: self)
-        
+        if let cell = tableView.cellForRow(at: indexPath) as? ShoppingListTableCell,
+            let shoppingList = cell.shoppingListModel {
+            self.performSegue(withIdentifier: openSummarySegueID,
+                              sender: ShoppingHistory(
+                                address: "Jl. Mawar Melati Permai III Blok BC No. 10",
+                                arrivalDate: nil,
+                                shoppingItems: shoppingList.shoppingItems))
+        }
     }
 
     
@@ -107,12 +112,12 @@ class ShoppingListsTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         guard let summaryVC = segue.destination as? SummaryViewController,
-            let index = tableView.indexPathForSelectedRow?.row
+            let history = sender as? ShoppingHistory
             else {
                 return
         }
         // Pass the selected object to the new view controller.
-        summaryVC.shoppingItemsList = shoppingLists[index].shoppingItems
+        summaryVC.purchaseOrder = history
     }
     
 

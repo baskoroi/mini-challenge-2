@@ -22,7 +22,12 @@ class HistoryDetailViewController: UIViewController, UITableViewDataSource, UITa
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        title = Date().getLocalTimeIntervalText(transactionDate: shoppingHistory.arrivalDate)
+        if let arrivalDate = shoppingHistory.arrivalDate {
+            title = Date().getLocalTimeIntervalText(transactionDate: arrivalDate)
+        } else {
+            title = "Pesanan Sebelumnya"
+        }
+        
         totalPriceLabel.text = shoppingHistory.totalPriceText
     }
     
@@ -65,7 +70,7 @@ class HistoryDetailViewController: UIViewController, UITableViewDataSource, UITa
         // Get the new view controller using segue.destination.
         guard let summaryVC = segue.destination as? SummaryViewController else { return }
         // Pass the selected object to the new view controller.
-        summaryVC.shoppingItemsList = shoppingHistory.shoppingItems
+        summaryVC.purchaseOrder = shoppingHistory
     }
 
 }

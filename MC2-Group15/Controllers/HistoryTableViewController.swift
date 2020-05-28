@@ -27,7 +27,11 @@ class HistoryCell: UITableViewCell {
     
     func setup(from history: ShoppingHistory) {
         self.history = history
-        self.timeLabel.text = Date().getLocalTimeIntervalText(transactionDate: history.arrivalDate)
+        if let arrivalDate = history.arrivalDate {
+            self.timeLabel.text = Date().getLocalTimeIntervalText(transactionDate: arrivalDate)
+        } else {
+            self.timeLabel.text = "Beberapa hari sebelumnya"
+        }
         self.totalPriceLabel.text = history.totalPriceText
     }
 }
