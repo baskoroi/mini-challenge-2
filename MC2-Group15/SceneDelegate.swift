@@ -22,13 +22,36 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // choose to view onboarding view controller as first try or not
         let defaults = UserDefaults.standard
         if defaults.object(forKey: "isFirstTime") == nil {
-            defaults.set("no", forKey: "isFirstTime") // set to non-nil value
+            /*
+            sorry I have to comment this line below so that we don't have to delete the app
+            everytime before we login as elder or helper
+            */
+            //defaults.set("no", forKey: "isFirstTime") // set to non-nil value
+            defaults.set("", forKey : "userType")
             let storyboard = UIStoryboard(name: "Onboarding", bundle: nil)
             let viewController = storyboard.instantiateViewController(
                 withIdentifier: "Onboarding") as! OnboardingViewController
             self.window?.rootViewController = viewController
             self.window?.makeKeyAndVisible()
         }
+        else {
+            // choose which page to go as elder or helper
+           if defaults.string(forKey: "userType") == "Elder"  {
+                let storyboard = UIStoryboard(name: "Home", bundle: nil)
+                let viewController = storyboard.instantiateViewController(
+                    withIdentifier: "Home") as! HomeElderVC
+                self.window?.rootViewController = viewController
+                self.window?.makeKeyAndVisible()
+            }
+            else if defaults.string(forKey: "userType") == "Helper" {
+                let storyboard = UIStoryboard(name: "Masuk", bundle: nil)
+                let viewController = storyboard.instantiateViewController(
+                    withIdentifier: "Masuk") as! LoginHelperVC
+                self.window?.rootViewController = viewController
+                self.window?.makeKeyAndVisible()
+            }
+        }
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

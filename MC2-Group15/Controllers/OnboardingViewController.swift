@@ -10,21 +10,22 @@ import UIKit
 
 class OnboardingViewController: UIViewController {
 
-    override func viewDidLoad() {
+   override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
+        validateUserDefaults()
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    // add action
+    // validate from User Defaults, redirect to Helper Login Page
+    
+    func validateUserDefaults(){
+        let usertype = UserDefaults.standard.string(forKey: "userType")
+        print("Previously Logged In as : \(usertype)")
     }
-    */
 
 }

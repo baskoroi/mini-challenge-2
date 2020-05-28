@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LQS-Zo-mnY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -15,54 +15,115 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="8fN-DV-Uco">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="8fN-DV-Uco">
                                 <rect key="frame" x="0.0" y="44" width="414" height="370"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selamat Datang!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A37-YH-0qg">
-                                <rect key="frame" x="75" y="446" width="264" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selamat Datang!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A37-YH-0qg">
+                                <rect key="frame" x="24" y="454.5" width="366" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kami adalah jembatan antara kalian yang ingin mengulurkan tangan dan kalian yang membutuhkan bantuan." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-lu-DJX">
-                                <rect key="frame" x="24" y="519" width="366" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kami adalah jembatan antara kalian yang ingin mengulurkan tangan dan kalian yang membutuhkan bantuan." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-lu-DJX">
+                                <rect key="frame" x="24" y="535.5" width="366" height="92.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSn-6k-HcL">
-                                <rect key="frame" x="24" y="634" width="366" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSn-6k-HcL">
+                                <rect key="frame" x="24" y="668" width="366" height="60"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.66274509803921566" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="dlY-Of-xJR"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal" title="Masuk">
+                                <state key="normal" title="Minta Bantuan Belanja">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ggR-R7-Wb8" kind="show" id="NSH-YQ-Tk6"/>
+                                    <segue destination="WmZ-Ta-6gJ" kind="show" identifier="goToElderMainSegue" id="TdU-r3-v3L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xw4-hh-vtr">
+                                <rect key="frame" x="24" y="752" width="366" height="60"/>
+                                <color key="backgroundColor" red="0.15686274510000001" green="0.66274509800000003" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="d2n-5h-OwS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Masuk Sebagai Relawan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ngt-xg-cEc" kind="show" identifier="goToHelperMainSegue" id="rtC-Pg-CAo"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8fN-DV-Uco" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5wb-6C-AE3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xw4-hh-vtr" secondAttribute="bottom" constant="50" id="9i5-Lx-ctw"/>
+                            <constraint firstItem="NSn-6k-HcL" firstAttribute="top" secondItem="Tik-lu-DJX" secondAttribute="bottom" constant="40" id="AGA-Ch-mW4"/>
+                            <constraint firstItem="Xw4-hh-vtr" firstAttribute="leading" secondItem="NSn-6k-HcL" secondAttribute="leading" id="Elv-BB-eHp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xw4-hh-vtr" secondAttribute="trailing" constant="24" id="JHQ-M4-Foj"/>
+                            <constraint firstItem="A37-YH-0qg" firstAttribute="trailing" secondItem="Tik-lu-DJX" secondAttribute="trailing" id="Mcc-a5-joC"/>
+                            <constraint firstItem="A37-YH-0qg" firstAttribute="top" secondItem="8fN-DV-Uco" secondAttribute="bottom" constant="32" id="UJ2-tH-4La"/>
+                            <constraint firstItem="NSn-6k-HcL" firstAttribute="leading" secondItem="Tik-lu-DJX" secondAttribute="leading" id="YEv-hp-79u"/>
+                            <constraint firstItem="Tik-lu-DJX" firstAttribute="top" secondItem="A37-YH-0qg" secondAttribute="bottom" constant="40" id="ZBE-Ml-Uyw"/>
+                            <constraint firstItem="A37-YH-0qg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="bjK-IH-5OU"/>
+                            <constraint firstItem="A37-YH-0qg" firstAttribute="trailing" secondItem="NSn-6k-HcL" secondAttribute="trailing" id="fPe-8I-MwN"/>
+                            <constraint firstItem="Xw4-hh-vtr" firstAttribute="top" secondItem="NSn-6k-HcL" secondAttribute="bottom" constant="24" id="g2L-8P-uDC"/>
+                            <constraint firstItem="8fN-DV-Uco" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="paz-Cg-ghk"/>
+                            <constraint firstItem="Tik-lu-DJX" firstAttribute="leading" secondItem="A37-YH-0qg" secondAttribute="leading" id="q8t-xh-v5M"/>
+                            <constraint firstItem="A37-YH-0qg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="rLs-MI-5hK"/>
+                            <constraint firstItem="8fN-DV-Uco" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rrg-IR-JU6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A37-YH-0qg" secondAttribute="trailing" constant="24" id="yCe-MM-uWl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Jpa-Gl-t48"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-249.27536231884059" y="105.80357142857143"/>
+            <point key="canvasLocation" x="660.86956521739137" y="105.80357142857143"/>
         </scene>
-        <!--Main-->
-        <scene sceneID="Sj4-J6-vsG">
+        <!--Home-->
+        <scene sceneID="aA9-MW-TNJ">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="ggR-R7-Wb8" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="1UB-yg-Sq0"/>
+                <viewControllerPlaceholder storyboardName="Home" id="WmZ-Ta-6gJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Nmz-mL-j1r"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K8q-eR-vVU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aga-pp-Jfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="367" y="43"/>
+            <point key="canvasLocation" x="1337.68115942029" y="105.80357142857143"/>
+        </scene>
+        <!--Masuk-->
+        <scene sceneID="M5v-Ma-HP4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Masuk" id="Ngt-xg-cEc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iv1-eq-cFe"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amx-yY-glU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1334.7826086956522" y="292.63392857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tG7-PC-MUr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="LQS-Zo-mnY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d51-im-J8R">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="D1t-jr-vW1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="omo-vV-Feh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249.27536231884059" y="105.80357142857143"/>
         </scene>
     </scenes>
     <resources>
