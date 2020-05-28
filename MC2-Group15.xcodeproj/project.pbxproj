@@ -10,6 +10,8 @@
 		6D17063C247855FB00F144BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17063B247855FB00F144BF /* AppDelegate.swift */; };
 		6D17063E247855FB00F144BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D17063D247855FB00F144BF /* SceneDelegate.swift */; };
 		6D170645247855FC00F144BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D170644247855FC00F144BF /* Assets.xcassets */; };
+		AE7836B1247F6B4A009D0FCB /* ShoppingListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7836AF247F6B4A009D0FCB /* ShoppingListsTableViewController.swift */; };
+		AE7836B2247F6B4A009D0FCB /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7836B0247F6B4A009D0FCB /* SummaryViewController.swift */; };
 		C8AAAF48247D21C1003AB2EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAAF37247D21C1003AB2EF /* ViewController.swift */; };
 		C8AAAF49247D21C1003AB2EF /* InfoPesananController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAAF38247D21C1003AB2EF /* InfoPesananController.swift */; };
 		C8AAAF4A247D21C1003AB2EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF3B247D21C1003AB2EF /* LaunchScreen.storyboard */; };
@@ -23,9 +25,7 @@
 		C8AAAF66247D2450003AB2EF /* Masuk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF64247D2450003AB2EF /* Masuk.storyboard */; };
 		C8AAAF67247D2450003AB2EF /* InfoPesanan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAAF65247D2450003AB2EF /* InfoPesanan.storyboard */; };
 		CC61348A247EB7B700E3064C /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC613486247EB7B700E3064C /* HistoryTableViewController.swift */; };
-		CC61348B247EB7B700E3064C /* ShoppingListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC613487247EB7B700E3064C /* ShoppingListsTableViewController.swift */; };
 		CC61348C247EB7B700E3064C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC613488247EB7B700E3064C /* HistoryViewController.swift */; };
-		CC61348D247EB7B700E3064C /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC613489247EB7B700E3064C /* SummaryViewController.swift */; };
 		CC613493247EB82400E3064C /* CuratedShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61348E247EB82400E3064C /* CuratedShoppingList.swift */; };
 		CC613494247EB82400E3064C /* ShoppingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61348F247EB82400E3064C /* ShoppingHistory.swift */; };
 		CC613495247EB82400E3064C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC613490247EB82400E3064C /* User.swift */; };
@@ -43,6 +43,8 @@
 		6D17063D247855FB00F144BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6D170644247855FC00F144BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D170649247855FC00F144BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7836AF247F6B4A009D0FCB /* ShoppingListsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListsTableViewController.swift; sourceTree = "<group>"; };
+		AE7836B0247F6B4A009D0FCB /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		C8AAAF37247D21C1003AB2EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8AAAF38247D21C1003AB2EF /* InfoPesananController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPesananController.swift; sourceTree = "<group>"; };
 		C8AAAF3B247D21C1003AB2EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,9 +58,7 @@
 		C8AAAF64247D2450003AB2EF /* Masuk.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Masuk.storyboard; sourceTree = "<group>"; };
 		C8AAAF65247D2450003AB2EF /* InfoPesanan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InfoPesanan.storyboard; sourceTree = "<group>"; };
 		CC613486247EB7B700E3064C /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
-		CC613487247EB7B700E3064C /* ShoppingListsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingListsTableViewController.swift; path = "../../../code/prototypes/MC2Prototype-ShoppingList/MC2Prototype-ShoppingList/Controllers/ShoppingListsTableViewController.swift"; sourceTree = "<group>"; };
 		CC613488247EB7B700E3064C /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		CC613489247EB7B700E3064C /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummaryViewController.swift; path = "../../../code/prototypes/MC2Prototype-ShoppingList/MC2Prototype-ShoppingList/Controllers/SummaryViewController.swift"; sourceTree = "<group>"; };
 		CC61348E247EB82400E3064C /* CuratedShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuratedShoppingList.swift; sourceTree = "<group>"; };
 		CC61348F247EB82400E3064C /* ShoppingHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingHistory.swift; sourceTree = "<group>"; };
 		CC613490247EB82400E3064C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -114,10 +114,10 @@
 		C8AAAF36247D21C1003AB2EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AE7836AF247F6B4A009D0FCB /* ShoppingListsTableViewController.swift */,
+				AE7836B0247F6B4A009D0FCB /* SummaryViewController.swift */,
 				CC613486247EB7B700E3064C /* HistoryTableViewController.swift */,
 				CC613488247EB7B700E3064C /* HistoryViewController.swift */,
-				CC613487247EB7B700E3064C /* ShoppingListsTableViewController.swift */,
-				CC613489247EB7B700E3064C /* SummaryViewController.swift */,
 				C8AAAF37247D21C1003AB2EF /* ViewController.swift */,
 				C8AAAF38247D21C1003AB2EF /* InfoPesananController.swift */,
 				CCCAD3FF247E8C3100CD787A /* OnboardingViewController.swift */,
@@ -260,14 +260,14 @@
 				CC613497247EB82400E3064C /* CuratedShoppingListsHelper.swift in Sources */,
 				CC613496247EB82400E3064C /* ShoppingItem.swift in Sources */,
 				CC613494247EB82400E3064C /* ShoppingHistory.swift in Sources */,
+				AE7836B2247F6B4A009D0FCB /* SummaryViewController.swift in Sources */,
 				CC613493247EB82400E3064C /* CuratedShoppingList.swift in Sources */,
 				CC61348C247EB7B700E3064C /* HistoryViewController.swift in Sources */,
-				CC61348D247EB7B700E3064C /* SummaryViewController.swift in Sources */,
 				6D17063C247855FB00F144BF /* AppDelegate.swift in Sources */,
 				6D17063E247855FB00F144BF /* SceneDelegate.swift in Sources */,
 				CC613495247EB82400E3064C /* User.swift in Sources */,
-				CC61348B247EB7B700E3064C /* ShoppingListsTableViewController.swift in Sources */,
 				CCCAD400247E8C3100CD787A /* OnboardingViewController.swift in Sources */,
+				AE7836B1247F6B4A009D0FCB /* ShoppingListsTableViewController.swift in Sources */,
 				CC61348A247EB7B700E3064C /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
