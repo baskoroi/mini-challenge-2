@@ -16,6 +16,10 @@ struct ShoppingItem {
     let quantityUnit: String
     let price: Int
     
+    var summarySentence: String {
+        "\(quantity) \(quantityUnit) \(name.lowercased())"
+    }
+    
     init(name: String,
          description: String,
          quantity: Int,
