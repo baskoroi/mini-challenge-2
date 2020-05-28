@@ -10,7 +10,7 @@ import UIKit
 
 class SummaryViewController: UIViewController {
 
-    var shoppingList: CuratedShoppingList?
+    var shoppingItemsList: [ShoppingItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,9 +19,7 @@ class SummaryViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if let list = shoppingList {
-            print(list)
-        }
+        print(shoppingItemsList)
     }
 
     /*

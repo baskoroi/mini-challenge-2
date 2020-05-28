@@ -8,19 +8,35 @@
 
 import UIKit
 
+protocol HistoryCellDelegator {
+    func callSegueFromCell(with history: AnyObject)
+}
+
 class HistoryCell: UITableViewCell {
     
-    var history: ShoppingHistory?
+    var delegate: HistoryCellDelegator!
+    var history: ShoppingHistory!
+    
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var totalPriceLabel: UILabel!
     
     @IBAction func showShoppingList(_ sender: UIButton) {
-        
+        guard delegate != nil && history != nil else { return }
+        self.delegate.callSegueFromCell(with: history as AnyObject)
+    }
+    
+    func setup(from history: ShoppingHistory) {
+        self.history = history
+        self.timeLabel.text = Date().getLocalTimeIntervalText(transactionDate: history.arrivalDate)
+        self.totalPriceLabel.text = history.totalPriceText
     }
 }
 
-class HistoryTableViewController: UITableViewController {
-
+class HistoryTableViewController: UITableViewController, HistoryCellDelegator {
+    func callSegueFromCell(with history: AnyObject) {
+        self.performSegue(withIdentifier: "showHistoryItems", sender: history)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,21 +49,24 @@ class HistoryTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    var shoppingHistoryList: [ShoppingHistory] = ShoppingHistoriesHelper.shared.getAll()
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return shoppingHistoryList.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(
             withIdentifier: "historyCell", for: indexPath) as! HistoryCell
-
-        cell.timeLabel.text = "Kemarin"
-        cell.totalPriceLabel.text = "Rp. 75.000,-"
-
+        
+        let shoppingHistory = shoppingHistoryList[indexPath.row]
+        cell.setup(from: shoppingHistory)
+        cell.delegate = self
+        
         return cell
     }
 
@@ -87,14 +106,22 @@ class HistoryTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showHistoryItems" {
+            if let detailVC = segue.destination as? HistoryDetailViewController,
+                let history = sender as? ShoppingHistory {
+        
+                detailVC.shoppingHistory = history
+//                detailVC.shoppedItemsList = history.shoppingItems
+            }
+        }
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }
