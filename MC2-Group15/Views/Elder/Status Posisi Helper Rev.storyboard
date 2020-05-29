@@ -175,6 +175,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lcn-XW-c1J"/>
                     </view>
+                    <connections>
+                        <outlet property="contactButton" destination="J2g-U4-SKz" id="MPQ-uG-7tQ"/>
+                        <outlet property="imageLabel" destination="LOh-Q8-NMh" id="BbW-ac-cvY"/>
+                        <outlet property="imageView" destination="LOh-Q8-NMh" id="yW6-jW-r8Q"/>
+                        <outlet property="mapView" destination="PaS-Pr-zPf" id="HrX-uT-gnQ"/>
+                        <outlet property="nameLabel" destination="iTc-dt-dUv" id="y4J-ni-vRQ"/>
+                        <outlet property="statusLabel" destination="5lt-nb-PBv" id="far-wj-hZU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJX-f6-rhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
